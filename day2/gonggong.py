@@ -34,3 +34,6 @@ list3=[10,10,40,30]
 print(list3)
 list3=set(list3)
 print(list3)
+
+
+print("hello ")
