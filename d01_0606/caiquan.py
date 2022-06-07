@@ -15,3 +15,5 @@ elif wanjia == com:
     print("玩家和电脑打成了平手")
 else:
     print("电脑胜利")
+
+print("11111")
