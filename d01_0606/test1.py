@@ -122,3 +122,18 @@ print(mystr.count("world"))
 
 print(mystr.replace("and","AND",1))
 print(mystr.split(" ",1))
+
+print(mystr.split(" ",2))
+
+list5=["1","2"]
+tup4=("1","3","5","99")
+print("--".join(list5)) #通过字串进行拼接
+print("~~".join(tup4))
+
+print(mystr.upper())    #转成大写
+print(mystr.lower())    #转成小写
+
+print(mystr.startswith("hello"))        #是否以字串开头，是返回true
+print(mystr.startswith("helloC"))
+
+
