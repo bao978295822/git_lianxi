@@ -91,14 +91,17 @@ class fangzi():
         self.huxing=huxing
         self.mianji=mianji
     def add1(self,jiaju1):
-        self.liebiao.append(jiaju1.name)
         self.sheng_area=self.mianji-jiaju1.mianji
+        if self.sheng_area>jiaju1.mianji:
+            self.liebiao.append(jiaju1.name)
+        else:
+            print("房子里装不下家具了")
     def __str__(self):          #用一个魔法方法，输出
         return f"房子的户型是{self.huxing},总面积是{self.mianji},房子里的家具有{self.liebiao}，剩余的面积是{self.sheng_area}"
 
 chuang=jiaju("床",4)
 yigui=jiaju("衣柜",2)
-canzhuo=jiaju("餐桌",1.5)
+canzhuo=jiaju("餐桌",40)
 
 fang=fangzi("豪宅",30)
 # fang.add1(chuang)
