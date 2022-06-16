@@ -1,13 +1,13 @@
 print("12323223")
 print("12323223")
-print("12323223")
+print("1232git3")
 print("12323223")
 print("00000000")
-print("hello world!!!")
+print("hello wo")
 print("12323223")
 print("12323223")
 print("12323223")
+print("12323")
 print("12323223")
-print("12323223")
-
+print(4+3)
 
