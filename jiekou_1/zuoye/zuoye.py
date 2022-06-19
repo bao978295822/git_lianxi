@@ -5,17 +5,19 @@
 
 
 class mao():
-    def chiyu(self):
-        print("小猫爱吃鱼")
+    def chiyu(self,shiwu):
+        print(f"小猫爱吃{shiwu}")
 
     def heshui(self):
         print("小猫要喝水")
 
+if __name__ == '__main__':
+    mao1 = mao()  # 实例化一个猫
+    mao1.chiyu("鱼")
+    mao1.heshui()
+    print("*" * 20)
 
-mao1 = mao()  # 实例化一个猫
-mao1.chiyu()
-mao1.heshui()
-print("*" * 20)
+
 '''
 2、小明爱跑步，爱吃东西。
     1）小明体重75.0公斤
