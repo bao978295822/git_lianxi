@@ -52,6 +52,7 @@ class shibing():
         # self.qiang.
         self.qiang1.zhuang()
 
+
     def __str__(self):
         return f"{self.name},有{self.qiang1},枪里有{ak.num}个子弹"
 
