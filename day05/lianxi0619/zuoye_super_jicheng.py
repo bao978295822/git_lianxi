@@ -34,4 +34,7 @@ class tudi(school):
         super().make_cake()
 #实例化
 xiaoming=tudi()
+#测试推送
+
+
 xiaoming.make_oldcake()
