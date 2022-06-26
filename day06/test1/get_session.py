@@ -15,3 +15,4 @@ print(cookie1)
 url = "https://wanandroid.com//user/lg/userinfo/json"
 re2 = s.get(url=url)
 print(re2.text)
+print("测试推送")
