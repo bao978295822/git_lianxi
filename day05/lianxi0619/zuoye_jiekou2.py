@@ -24,7 +24,7 @@
 5-cookie和session区别
 存放位置不同：cookie存放在浏览器中,session存放在服务器中
 安全性不同：cookie不安全，存放在本地，session安全
-性能方面session 不如cookie
+性能方面session(没限制) 不如cookie(4k)
 数据存储大小不同
 
 7 http和https的区别
