@@ -16,7 +16,7 @@ class mytest(unittest.TestCase):
 
     # @unittest.skip("跳过")
     # @unittest.skipIf(1==1,"tiaoguo")
-    # @unittest.skipUnless(1==0,"不满足则跳过")
+    @unittest.skipUnless(1==1,"不满足则跳过")
     def test_cheng(self):
         # self.skipTest("未开发完成，跳过")
         print("执行了乘法")
